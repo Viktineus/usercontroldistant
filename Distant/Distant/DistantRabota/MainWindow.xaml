@@ -1,0 +1,17 @@
+﻿<Window x:Class="DistantRabota.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DistantRabota"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="463" Width="929">
+    <Grid Margin="0,0,10,6">
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <local:Rhzombus Header="Поздравление 1" Description="Сообщение с поздравлением 1" ColoredSource="asseti/img1.jpg" ></local:Rhzombus>
+            <local:Rhzombus Header="Поздравление 2" Description="Сообщение с поздравлением 2" ColoredSource="asseti/img2.jpg"></local:Rhzombus>
+            <local:Rhzombus Header="Поздравление 3" Description="Сообщение с поздравлением 3" ColoredSource="asseti/img3.jpg"></local:Rhzombus>
+            <local:Rhzombus Header="Поздравление 4" Description="Сообщение с поздравлением 4" ColoredSource="asseti/img4.jpg"></local:Rhzombus>
+        </StackPanel>
+    </Grid>
+</Window>
